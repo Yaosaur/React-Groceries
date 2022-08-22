@@ -1,0 +1,72 @@
+body {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  font-family: 'Handlee', cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+legend {
+  font-size: 40px;
+}
+
+fieldset {
+  border: 5px dotted #04691a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fields {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.set {
+  width: 1000px;
+  border: 5px dotted #04691a;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  border: 5px dotted rgba(4, 105, 26, 0.5);
+  width: 700px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+button {
+  font-family: 'Handlee', cursive;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.later {
+  text-decoration: line-through;
+}
